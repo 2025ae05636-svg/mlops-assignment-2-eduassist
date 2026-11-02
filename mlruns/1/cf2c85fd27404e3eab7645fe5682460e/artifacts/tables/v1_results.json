@@ -1,0 +1,64 @@
+{
+  "columns": [
+    "question_id",
+    "question",
+    "response",
+    "latency_seconds",
+    "input_tokens",
+    "output_tokens",
+    "total_cost_usd",
+    "valid_json"
+  ],
+  "data": [
+    [
+      "Q1",
+      "What is the difference between supervised and unsupervised learning?",
+      "Supervised learning uses labelled examples; unsupervised learning discovers patterns without labels.",
+      0.421,
+      17,
+      19,
+      2.37e-06,
+      false
+    ],
+    [
+      "Q2",
+      "Explain the bias-variance trade-off with a simple example.",
+      "Bias is error from an overly simple model; variance is sensitivity to training data. The goal is to balance both.",
+      0.357,
+      16,
+      28,
+      3.04e-06,
+      false
+    ],
+    [
+      "Q3",
+      "What is gradient descent and why is the learning rate important?",
+      "Gradient descent updates parameters to reduce loss. The learning rate controls the update size.",
+      0.365,
+      19,
+      22,
+      2.71e-06,
+      false
+    ],
+    [
+      "Q4",
+      "How does regularization help prevent overfitting in machine learning?",
+      "Regularization penalizes complexity, discouraging a model from fitting noise in its training data.",
+      0.342,
+      17,
+      21,
+      2.53e-06,
+      false
+    ],
+    [
+      "Q5",
+      "Compare precision, recall, and F1-score for evaluating a classifier.",
+      "Precision measures correctness among predicted positives; recall measures how many actual positives are found; F1 balances both.",
+      0.416,
+      17,
+      25,
+      2.85e-06,
+      false
+    ]
+  ]
+}

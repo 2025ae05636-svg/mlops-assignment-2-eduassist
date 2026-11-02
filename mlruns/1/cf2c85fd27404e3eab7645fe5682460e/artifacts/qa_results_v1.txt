@@ -1,0 +1,31 @@
+Prompt version: v1
+
+[Q1] What is the difference between supervised and unsupervised learning?
+  Response : Supervised learning uses labelled examples; unsupervised learning discovers patterns without labels.
+  Latency  : 0.421s
+  Tokens   : 17 in / 19 out
+  Cost     : $0.0000024
+
+[Q2] Explain the bias-variance trade-off with a simple example.
+  Response : Bias is error from an overly simple model; variance is sensitivity to training data. The goal is to balance both.
+  Latency  : 0.357s
+  Tokens   : 16 in / 28 out
+  Cost     : $0.0000030
+
+[Q3] What is gradient descent and why is the learning rate important?
+  Response : Gradient descent updates parameters to reduce loss. The learning rate controls the update size.
+  Latency  : 0.365s
+  Tokens   : 19 in / 22 out
+  Cost     : $0.0000027
+
+[Q4] How does regularization help prevent overfitting in machine learning?
+  Response : Regularization penalizes complexity, discouraging a model from fitting noise in its training data.
+  Latency  : 0.342s
+  Tokens   : 17 in / 21 out
+  Cost     : $0.0000025
+
+[Q5] Compare precision, recall, and F1-score for evaluating a classifier.
+  Response : Precision measures correctness among predicted positives; recall measures how many actual positives are found; F1 balances both.
+  Latency  : 0.416s
+  Tokens   : 17 in / 25 out
+  Cost     : $0.0000028

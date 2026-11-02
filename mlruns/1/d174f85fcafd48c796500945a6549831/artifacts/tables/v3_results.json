@@ -1,0 +1,64 @@
+{
+  "columns": [
+    "question_id",
+    "question",
+    "response",
+    "latency_seconds",
+    "input_tokens",
+    "output_tokens",
+    "total_cost_usd",
+    "valid_json"
+  ],
+  "data": [
+    [
+      "Q1",
+      "What is the difference between supervised and unsupervised learning?",
+      "{\"answer\": \"Supervised learning uses labelled examples; unsupervised learning discovers patterns without labels.\", \"confidence\": \"high\", \"key_points\": [\"Supervised uses labels\", \"Unsupervised finds structure\"]}",
+      0.686,
+      17,
+      29,
+      3.17e-06,
+      true
+    ],
+    [
+      "Q2",
+      "Explain the bias-variance trade-off with a simple example.",
+      "{\"answer\": \"Bias is error from an overly simple model; variance is sensitivity to training data.\", \"confidence\": \"high\", \"key_points\": [\"High bias underfits\", \"High variance overfits\"]}",
+      0.669,
+      16,
+      32,
+      3.36e-06,
+      true
+    ],
+    [
+      "Q3",
+      "What is gradient descent and why is the learning rate important?",
+      "{\"answer\": \"Gradient descent updates parameters to reduce loss. The learning rate controls the update size.\", \"confidence\": \"high\", \"key_points\": [\"Uses loss gradients\", \"Large steps may overshoot\"]}",
+      0.689,
+      19,
+      33,
+      3.59e-06,
+      true
+    ],
+    [
+      "Q4",
+      "How does regularization help prevent overfitting in machine learning?",
+      "{\"answer\": \"Regularization penalizes complexity, discouraging a model from fitting noise in its training data.\", \"confidence\": \"high\", \"key_points\": [\"Controls complexity\", \"Can reduce overfitting\"]}",
+      0.706,
+      17,
+      30,
+      3.25e-06,
+      true
+    ],
+    [
+      "Q5",
+      "Compare precision, recall, and F1-score for evaluating a classifier.",
+      "{\"answer\": \"Precision measures correctness among predicted positives; recall measures how many actual positives are found; F1 balances both.\", \"confidence\": \"high\", \"key_points\": [\"Precision: correctness\", \"Recall: coverage\", \"F1: harmonic mean\"]}",
+      0.708,
+      17,
+      36,
+      3.73e-06,
+      true
+    ]
+  ]
+}
